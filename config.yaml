@@ -1,0 +1,10 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseURL: "http://svett-ifi.github.io/"
+title: "Svett@ifi Blogg"
+canonifyurls: true
+...
