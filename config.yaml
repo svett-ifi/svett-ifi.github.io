@@ -7,4 +7,6 @@ indexes:
 baseURL: "http://svett-ifi.github.io/"
 title: "Svett@ifi Blogg"
 canonifyurls: true
+config: "config.yaml"
+metaDataFormat: "yaml"
 ...
