@@ -5,16 +5,25 @@
     <link>http://svett-ifi.github.io/</link>
     <description>Recent content on Svett@ifi Blogg</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2015 23:08:33 +0200</lastBuildDate>
     <atom:link href="http://svett-ifi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Dette er en test-post</title>
-      <link>http://svett-ifi.github.io/posts/sample/</link>
-      <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
+      <title>Velkommen til Svett!</title>
+      <link>http://svett-ifi.github.io/posts/test/</link>
+      <pubDate>Mon, 06 Jul 2015 23:08:33 +0200</pubDate>
       
-      <guid>http://svett-ifi.github.io/posts/sample/</guid>
-      <description>&lt;p&gt;Dette er den første posten, TESTING EN TO TRE.&lt;/p&gt;
+      <guid>http://svett-ifi.github.io/posts/test/</guid>
+      <description>
+
+&lt;h1 id=&#34;velkommen:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Velkommen!&lt;/h1&gt;
+
+&lt;p&gt;Dette er den nye bloggen til foreningen Svett, på institutt for informatikk.&lt;/p&gt;
+
+&lt;p&gt;Vi skal holde nye kurs og foredrag fra høsten 2015, og har som mål å legge ut
+alt av informasjon fra disse på denne siden.&lt;/p&gt;
+
+&lt;p&gt;Se &lt;a href=&#34;https://www.facebook.com/svettifi&#34;&gt;Svett på facebook&lt;/a&gt; for info om arrangementer.&lt;/p&gt;
 </description>
     </item>
     
