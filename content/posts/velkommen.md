@@ -13,4 +13,12 @@ Dette er den nye bloggen til foreningen Svett, på institutt for informatikk.
 Vi skal holde nye kurs og foredrag fra høsten 2015, og har som mål å legge ut
 alt av informasjon fra disse på denne siden.
 
+Vi ser frem til å møte mange nye studenter dette semesteret!
+
+```html
+<html>
+  alert("Vi snakkes!");
+</html>
+```
+
 Se [Svett på facebook](https://www.facebook.com/svettifi) for info om arrangementer.
