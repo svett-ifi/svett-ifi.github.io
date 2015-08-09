@@ -46,6 +46,8 @@ At the time being, we use Herring Cove, so:
   ```
 
   You can now override whatever is in the config, with
-  ```hugo server --theme herring-cove```
+  ```sh
+  hugo server --theme herring-cove
+  ```
 
   Or change the 'theme'-key in the config
