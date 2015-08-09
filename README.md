@@ -12,7 +12,7 @@ At the time being, we use Herring Cove, so:
 
 ## Contributing  
 
-To create a post  
+###To create a post  
 
   - `hugo new posts/<filename>.md`  
      This creates a template file  
@@ -31,3 +31,21 @@ To create a post
 
   - Commit everything and push (If you haven't already)  
 
+###To change theme
+
+  We have included a big repo of themes in submodules.
+  To use a theme for the first time, you have to initialize it,
+  and download it.
+
+  Example:  
+
+  ```bash
+  cd themes
+  git submodule init herring-cove
+  git submodule update herring-cove
+  ```
+
+  You can now override whatever is in the config, with
+  ```hugo server --theme herring-cove```
+
+  Or change the 'theme'-key in the config
