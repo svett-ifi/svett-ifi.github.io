@@ -51,3 +51,20 @@ At the time being, we use Herring Cove, so:
   ```
 
   Or change the 'theme'-key in the config
+
+
+###How do a PR?
+Right now, svett-ifi.github.io serves everything in our master branch, which only contains generated files.
+
+Workflow is as follows:
+
+1. checkout a branch with `dev` as base branch
+    `git checkout $branch_name dev`
+
+2. Push branch to us or your fork depending on permissions
+
+3. Open pull request. Important: Choose `dev` as base branch, or you won't be able to merge.
+
+4. Get comments, do more work, win.
+
+5. To build and deploy, run `deploy.sh`, which will generate files in the `public` folder, and push that folder to the master branch.
