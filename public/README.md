@@ -1,1 +1,0 @@
-# svett-ifi.github.io
