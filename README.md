@@ -1,14 +1,27 @@
 # svett-ifi.github.io
 
-### Prerequisites  
-Hugo  
+## Setup
+We use **[Hugo](https://gohugo.io/)** as our blog engine, so you will need that to build and preview the site.
+
+### Installation 
 `[brew | apt-get | pacman | blah ] install hugo`
 
 [Hugo binaries here](https://github.com/spf13/hugo/releases)
 
-You will also have to init the theme submodule you want to use.  
-At the time being, we use Herring Cove, so:  
-`(cd themes; git submodule init herring-cove; git submodule update)`
+### Initialisation
+
+The `themes` folder and the folders therein are submodules, and must be init'ed and downloaded.
+
+```shell
+cd $GIT_ROOT
+git submodule init themes
+git submodule update
+
+# Then we must init our theme
+cd themes
+git submodule init herring-cove
+git submodule update
+```
 
 ## Contributing  
 
@@ -27,9 +40,10 @@ At the time being, we use Herring Cove, so:
 
   - Optionally create a PR on the post, if you want feedback  
 
-  - Run `./deploy.sh`  
-
   - Commit everything and push (If you haven't already)  
+
+  - Run `./deploy.sh` when you are ready to let the changes go live  
+     Note: If the publish date is in the future, the post will be hidden till then.
 
 ###To change theme
 
