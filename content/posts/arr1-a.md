@@ -3,7 +3,7 @@ Categories: [Arrangementer]
 Description: "Introduksjonsarrangement"
 Tags: []
 date: 2015-08-09T17:31:16+02:00
-title: Få et forsprang på livet som programmerer
+title: "Få et forsprang på livet som programmerer: Del 1"
 ---
 
 Dato: TBA
@@ -38,7 +38,7 @@ Først skal vi laste ned et program som lar oss kjøre operativsystemer: Virtual
 
 [Windows](http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-Win.exe)  
 [OSX](http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg)  
-[Linux](https://www.virtualbox.org/wiki/Linux\_Downloads) eller bruk favoritt-pakkebehandleren din.
+[Linux](https://www.virtualbox.org/wiki/Linux\_Downloads) (eller bruk favoritt-pakkebehandleren din)
 
 Så skal vi laste ned en veldig populær linux-distro som heter ubuntu.
 [Den kan du laste ned her](http://www.ubuntu.com/desktop)
@@ -57,16 +57,18 @@ Du vil da se et vindu som ser slik ut
 5. Velg "VDI"  
 6. Velg "Dynamically Allocated". Dette betyr at den ikke tar mer plass enn den trenger, selv om du gir den tillatelse til å bruke mye.  
 7. Velg et nytt navn til den virtuelle harddisken din hvis du vil. Gi den 30 Gb med lagringsplass.  
-  
+
 Nå skal vi fortelle VirtualBox hvor den finner Ubuntu, som vi lastet ned i sted.  
+
 1. Trykk på "Settings"  
 2. Trykk på "Storage"  
 3. Under "Controller: IDE" i listen til venstre, trykk på "Empty".  
 4. Trykk på cd-ikonet ved "CD/DVD" og velg "Choose a virtual CD/DVD disk file..."  
 5. Finn fram Ubuntu, og trykk "Ok" eller tilsvarende.  
 6. Trykk "Ok" igjen for å lukke "Settings"-vinduet.  
-  
+
 Nå skal vi starte opp den virtuelle maskinen!  
+
 1. Trykk på den grønne pilen som sier "Start"  
 2. Velg ønsket språk og trykk "Install Ubuntu" når du kommer så langt.  
 3. Velg "Download updates while installing" og trykk "Continue"  
@@ -77,11 +79,11 @@ Nå skal vi starte opp den virtuelle maskinen!
 8. Fyll inn feltene med navn og passord som du ønsker.  
 9. Len deg tilbake. Installeringen er i gang. Trykk "Restart now" når installeringen er ferdig.  
 10. Hvis maskinen ikke restarter kan du lukke vinduet og trykke "Start" slik du gjorde i stad. Når du lukker vinduet velger du "Power off machine".  
-  
+
 Forhåpentligvis har du kommet deg gjennom alle stegene, og du har Ubuntu på maskinen din. Syns du at vinduet er for lite? Det vil vi i så fall ordne nå.  
-  
+
 For å få tilgang til funksjonalitet som er kjekt når man kjører et virtuelt OS, skal vi installere "Guest Additions".  
-  
+ 
 1. Klikk på "Devices" på verktøylinjen (ikke i Ubuntu, men i ditt OS)  
 2. Klikk nederst, på "Insert Guest Additions CD image"  
 Når du har gjort dette vil du få spørsmål om du vil kjøre programmet, og det vil du.    
@@ -90,38 +92,3 @@ Når maskinen starter opp igjen, vil du merke at vinduet kan forstørres, og du 
 
 Gratulerer!  
 
-# Terminalen og Unix  
-
-De fleste av dere har vært på forkurs og har allerede litt kjennskap til hva som foregår i en terminal.
-
-Vi skal også gå i gjennom litt basics, og kanskje litt andre ting.
-
-
-Se hvor du befinner deg
-```sh
-$ pwd  
-/Users/svettolini/her/er/du
-```
-
-Se hvilke filer og mapper som er i mappen du er i
-```sh
-$ ls
-Dokumenter  fil.txt  oppgave1.java 
-```
-
-HALO BRUK ASCIINEMA!!!!!!!!!!!!!!!!!!!
-
-Kommandoer:  
-cat  
-cd  
-cp  
-echo  
-find  
-htop  
-less  
-ls  
-mkdir  
-mv  
-rm  
-touch  
-  
