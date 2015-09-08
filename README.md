@@ -19,7 +19,7 @@ git submodule update
 
 # Then we must init our theme
 cd themes
-git submodule init herring-cove
+git submodule init redlounge
 git submodule update
 ```
 

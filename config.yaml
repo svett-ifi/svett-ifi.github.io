@@ -6,7 +6,7 @@ indexes:
   category: "categories"
 baseURL: "http://svett-ifi.github.io/"
 title: "Svett@ifi Blogg"
-theme: "herring-cove"
+theme: "redlounge"
 canonifyurls: true
 config: "config.yaml"
 metaDataFormat: "yaml"
