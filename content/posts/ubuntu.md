@@ -6,9 +6,9 @@ date: 2015-08-09T17:31:16+02:00
 title: "Få et forsprang på livet som programmerer: Del 1"
 ---
 
-Dato: TBA
-Sted: TBA
-[Arrangement på facebook](#)
+Dato: 10.09.2015  
+Sted: Fortress @ Ole Johan Dahls  
+[Arrangement på facebook](https://www.facebook.com/events/550620871758803/)
 
 *Artikkelen under er en fullstendig oppsummering av hva som skal skje på arrangementet.*
 
