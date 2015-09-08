@@ -61,7 +61,7 @@ git submodule update
 
   You can now override whatever is in the config, with
   ```sh
-  hugo server --theme herring-cove
+  hugo server --theme=herring-cove
   ```
 
   Or change the 'theme'-key in the config
@@ -72,12 +72,12 @@ Right now, svett-ifi.github.io serves everything in our master branch, which onl
 
 Workflow is as follows:
 
-1. checkout a branch with `dev` as base branch
-    `git checkout $branch_name dev`
+1. checkout a branch with `staging` as base branch
+    `git checkout $branch_name staging`
 
 2. Push branch to us or your fork depending on permissions
 
-3. Open pull request. Important: Choose `dev` as base branch, or you won't be able to merge.
+3. Open pull request. Important: Choose `staging` as base branch, or you won't be able to merge.
 
 4. Get comments, do more work, win.
 
