@@ -72,8 +72,8 @@ Right now, svett-ifi.github.io serves everything in our master branch, which onl
 
 Workflow is as follows:
 
-1. checkout a branch with `staging` as base branch
-    `git checkout $branch_name staging`
+1. checkout a branch with `production` as base branch
+    `git checkout $branch_name production`
 
 2. Push branch to us or your fork depending on permissions
 
