@@ -75,10 +75,12 @@ Workflow is as follows:
 1. checkout a branch with `production` as base branch
     `git checkout $branch_name production`
 
-2. Push branch to us or your fork depending on permissions
+2. Push branch to us or your fork\*
 
-3. Open pull request. Important: Choose `staging` as base branch, or you won't be able to merge.
+3. Open pull request to the `staging`-branch.
 
 4. Get comments, do more work, win.
 
-5. To build and deploy, run `deploy.sh`, which will generate files in the `public` folder, and push that folder to the master branch.
+5. When everything looks good, your work will be merged to the `production` branch, built, and published
+
+\* Depending on permissions, you might not be able to push to this repo. If you plan on messing with the history of the branch at any time (rebasing, rewriting, amending etc), it's best to push to your fork. If you push here, mark it as WIP-branchname, or don't mess with the history, as others might have based their work on your branch.
