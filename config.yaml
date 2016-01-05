@@ -10,4 +10,8 @@ theme: "redlounge"
 canonifyurls: true
 config: "config.yaml"
 metaDataFormat: "yaml"
+params:
+  sidebartitle  : Svett
+  sidebartagline: studentforening på ifi
+  sidebarphoto  : '/images/logo.png'
 ...
