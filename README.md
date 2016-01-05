@@ -8,21 +8,6 @@ We use **[Hugo](https://gohugo.io/)** as our blog engine, so you will need that 
 
 [Hugo binaries here](https://github.com/spf13/hugo/releases)
 
-### Initialisation
-
-The `themes` folder and the folders therein are submodules, and must be init'ed and downloaded.
-
-```shell
-cd $GIT_ROOT
-git submodule init themes
-git submodule update
-
-# Then we must init our theme
-cd themes
-git submodule init redlounge
-git submodule update
-```
-
 ## Contributing  
 
 ###To create a post  
@@ -45,27 +30,10 @@ git submodule update
   - Run `./deploy.sh` when you are ready to let the changes go live  
      Note: If the publish date is in the future, the post will be hidden till then.
 
-###To change theme
+### Themes
 
-  We have included a big repo of themes in submodules.
-  To use a theme for the first time, you have to initialize it,
-  and download it.
-
-  Example:  
-
-  ```bash
-  cd themes
-  git submodule init herring-cove
-  git submodule update herring-cove
-  ```
-
-  You can now override whatever is in the config, with
-  ```sh
-  hugo server --theme=herring-cove
-  ```
-
-  Or change the 'theme'-key in the config
-
+  We use [redlounge](https://github.com/tmaiaroto/hugo-redlounge) as of now, but this
+  will change when we finish our dedicated Svett theme.
 
 ###How do a PR?
 Right now, svett-ifi.github.io serves everything in our master branch, which only contains generated files.
